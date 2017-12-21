@@ -1,0 +1,25 @@
+{
+    "name": "numbervine/yii2-hover",
+    "description": "A wrapper to include hover assets in yii2 application",
+    "keywords": ["yii2", "wrapper", "hover"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thomas Varghese",
+            "email": "numbervine.public@gmail.com"
+        }
+    ],
+    "require": {
+      "bower-asset/hover": "*"
+    },
+    "support": {
+        "issues": "https://github.com/numbervine/yii2-hover/issues?state=open",
+        "source": "https://github.com/numbervine/yii2-hover"
+    },
+    "autoload": {
+        "psr-4": {
+            "numbervine\\hover\\": ""
+        }
+    }
+}
